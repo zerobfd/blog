@@ -1,0 +1,45 @@
+baseURL = 'http://zerobfd.github.io/'
+languageCode = 'en-us'
+title = '0bfd Blog'
+copyright = 'Clayton Pence (CC BY 4.0)'
+blogPath = 'posts/'
+theme = 'hugo-bearcub'
+
+enableRobotsTXT = true
+
+[author]
+  name = 'Clayton Pence'
+
+[markup]
+  [markup.highlight]
+    lineNos = true
+    lineNumbersInTable = false
+    noClasses = false
+
+[params]
+  description = '0bfd Blog'
+  favicon = 'favicon.png'
+  title = '0bfd Blog'
+  dateFormat = '2006-01-02'
+  generateSocialCard = false
+
+  [social]
+    email = '0bfd@0bfd.com'
+
+[menu]
+[[menu.main]]
+  name = 'Posts'
+  pageref = '/posts'
+  weight = 10
+[[menu.main]]
+  name = 'KB'
+  pageref = '/kb'
+  weight = 20
+[[menu.main]]
+  name = 'About'
+  pageref = '/about'
+  weight = 30
+[[menu.main]]
+  name = 'Verification'
+  pageref = '/verification'
+  weight = 40

@@ -1,0 +1,3 @@
+{{ range .Site.Menus.main.ByWeight }}
+  <a href="{{ relLangURL .URL }}">{{ .Name }}</a>
+{{ end }}

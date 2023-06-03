@@ -1,0 +1,19 @@
+{{ define "main" }}
+<content>
+  <ul class="blog-posts">
+    {{ range .Pages }}
+    <li>
+      {{ if .Params.link }}
+        <a href="{{ .Params.link }}" target="_blank">{{ .Title }}</a>
+      {{ else }}
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+      {{ end }}
+    </li>
+    {{ else }}
+    <li>
+      {{ i18n "no-posts" }}
+    </li>
+    {{ end }}
+  </ul>
+</content>
+{{ end }}

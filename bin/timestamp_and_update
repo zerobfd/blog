@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+set -CeE
+set -o pipefail
+
+HASH="$(git log -n 1 --format=format:%H)"
+SUMMARY="$(git log -n 1 --format=format:%s)"
+RUN_DATE="$(date --rfc-3339=seconds)"
+FP="content/verification/${HASH}.txt"
+
+git cat-file commit "${HASH}"
+
+git cat-file commit "${HASH}" > "${FP}"
+ots stamp "${FP}"
+cat >> content/verification/index.md << EOF
+${RUN_DATE} | ${SUMMARY} | [commit file](${HASH}.txt) | [timestamp file](${HASH}.txt.ots)
+EOF
