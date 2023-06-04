@@ -16,7 +16,7 @@
       <guid>http://zerobfd.github.io/verification/</guid>
       <description>Here are the files necessary to verify the authenticity of blog updates. The content in the commit files should match the git history for this site. The signatures should be verifyable with my public key, which can be found here: 0bfd_pub.asc or on public keyservers.
 See OpenTimestamps.org for more information on how to verify the timestamp files. I used their git integration as inspiration for what content to timestamp.
-Updates Date Summary Commit Timestamp </description>
+Updates Date Summary Commit Timestamp 2023-06-03 21:34:54-07:00 Add generated content commit file timestamp file </description>
     </item>
     
     <item>
