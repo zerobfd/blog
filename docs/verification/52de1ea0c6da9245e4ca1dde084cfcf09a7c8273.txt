@@ -1,0 +1,27 @@
+tree 16bba33d11f6ad58d9cf8146818735ceb90ae786
+parent 48f9f045c5161ae2309e8b60531d2d3da909ba31
+author Clayton Pence <ctpence@gmail.com> 1685853714 -0700
+committer Clayton Pence <ctpence@gmail.com> 1685853714 -0700
+gpgsig -----BEGIN PGP SIGNATURE-----
+ 
+ iQJGBAABCgAwFiEE2fxcro8CbxWHHYLi60Ir0ziiZZkFAmR8FkESHGN0cGVuY2VA
+ Z21haWwuY29tAAoJEOtCK9M4omWZDo8P/2ygYge7LB6D+Xl6R/v8Qih2K9TrU3Wn
+ JwoTFnpqtIt3tXroCMO41Z1J3OdhQdMieVZTiCuGLJWNew3Uhu+rfjiJuTkZ89Nl
+ BIwZkojJ5N4zu1anl4BB0daVvgnr1plekUsMuMRXJ8p55K9aEy7e/wOc3Ud6aqjp
+ forypNtLdxaHFj65lufxHYtD9Z/YggYdN0TCMb5UoIELA94UcTszkTiGAp432kdo
+ L+0DLc/1eBtbYmYyZN1CSgIw1duopMR5bJTrbGuUbPSIhhMAO3MBK18aV2eVIYN5
+ frLYOKv08UYyy5grzJxDmtmAJDvBBpHRKqOls9CVB//eebW9vvGVqEISWrABRhBw
+ gK8KcaH6H3WXkaCFjSanrl3o8R88HDOwJyDKh0OWQkuoc7LTAiSy6Cd002zJ0Cbs
+ zyKBvWMbVPNem7GpWDRhBm0yUTxZOXu8Q1CcELwirjaDPEPoD2BSBevGWhxDj4h9
+ MbLkcf4n0ihkIsVHItuSt10yG46FPguNU/Us4A8MELIflKYAkVbY3aq40oVL+sqc
+ 7PR94Y6QuqQGrfi/qBKASLfKFUDFlJn5ATp0vmveUAA3WxkY+reN+DurceUzc1id
+ EmEWyENgnDzhUlOTSMYlmkq8CX1gmdSlzDmvuTA+sgyHFDq+5JRbMZdcUOatPYkE
+ f84F8h+1dXB5
+ =2eeN
+ -----END PGP SIGNATURE-----
+
+Change output root
+
+Turns out that GitHub doesn't let you configure what directory to serve
+out of very flexibly, so now my commit history is all dirty right after
+I start the project...
