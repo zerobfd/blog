@@ -4,6 +4,7 @@ title = '0bfd Blog'
 copyright = 'Clayton Pence (CC BY 4.0)'
 blogPath = 'posts/'
 theme = 'hugo-bearcub'
+publishDir = 'docs'
 
 enableRobotsTXT = true
 
