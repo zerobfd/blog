@@ -10,7 +10,7 @@ FP="content/verification/${HASH}.txt"
 git cat-file commit "${HASH}"
 
 git cat-file commit "${HASH}" > "${FP}"
-ots stamp "${FP}"
+ots stamp "${FP}" --timeout 60
 cat >> content/verification/index.md << EOF
 ${RUN_DATE} | ${SUMMARY} | [commit file](${HASH}.txt) | [timestamp file](${HASH}.txt.ots)
 EOF
