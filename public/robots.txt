@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: http://zerobfd.github.io/sitemap.xml

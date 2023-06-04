@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://zerobfd.github.io/verification/</loc>
+    <lastmod>2023-06-03T19:35:04-07:00</lastmod>
+  </url><url>
+    <loc>http://zerobfd.github.io/about/</loc>
+    <lastmod>2023-06-03T19:32:04-07:00</lastmod>
+  </url><url>
+    <loc>http://zerobfd.github.io/</loc>
+    <lastmod>2023-06-03T13:46:11-07:00</lastmod>
+  </url><url>
+    <loc>http://zerobfd.github.io/posts/first-post/</loc>
+    <lastmod>2023-06-03T13:46:11-07:00</lastmod>
+  </url><url>
+    <loc>http://zerobfd.github.io/posts/</loc>
+    <lastmod>2023-06-03T13:46:11-07:00</lastmod>
+  </url><url>
+    <loc>http://zerobfd.github.io/categories/</loc>
+  </url><url>
+    <loc>http://zerobfd.github.io/kb/gpg/</loc>
+  </url><url>
+    <loc>http://zerobfd.github.io/kb/</loc>
+  </url><url>
+    <loc>http://zerobfd.github.io/tags/</loc>
+  </url>
+</urlset>

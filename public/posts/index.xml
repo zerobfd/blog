@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on 0bfd Blog</title>
+    <link>http://zerobfd.github.io/posts/</link>
+    <description>Recent content in Posts on 0bfd Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Clayton Pence (CC BY 4.0)</copyright>
+    <lastBuildDate>Sat, 03 Jun 2023 13:46:11 -0700</lastBuildDate><atom:link href="http://zerobfd.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First Post</title>
+      <link>http://zerobfd.github.io/posts/first-post/</link>
+      <pubDate>Sat, 03 Jun 2023 13:46:11 -0700</pubDate>
+      
+      <guid>http://zerobfd.github.io/posts/first-post/</guid>
+      <description>Before anything else, I want to write a bit about how I&amp;rsquo;ve set things up on the site. At some point later I&amp;rsquo;ll write about why I set it up this way.
+The blog is published as a git archive on GitHub. I use a static site generator (Hugo) to publish the content from markdown files. Each commit is signed with a GPG key that&amp;rsquo;s associated with my GitHub account, and the public key can be found in the repo and on keyservers.</description>
+    </item>
+    
+  </channel>
+</rss>
